@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.googlemapsdemo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.googlemapsdemo"
-        minSdk = 30
-        targetSdk = 34
+        minSdk = 27
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -45,4 +45,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    // Maps SDK for Android
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+
+
 }
