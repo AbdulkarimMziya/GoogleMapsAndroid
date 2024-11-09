@@ -50,5 +50,11 @@ dependencies {
     // Maps SDK for Android
     implementation("com.google.android.gms:play-services-maps:19.0.0")
 
+    // Maps location library
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+
+    implementation ("com.google.android.libraries.places:places:4.0.0")
+
+    implementation("com.squareup.okhttp3:okhttp:4.8.1")
 
 }
