@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
     companion object {
         private const val LOCATION_PERMISSION_REQUEST_CODE = 1
         private const val RADIUS = 1500
-        private const val API_KEY = "AIzaSyA26wHYreDmo3EefTUbPP7gwnPBH82hdf8"
+        private const val API_KEY = "***PLACE_API_Key****"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
